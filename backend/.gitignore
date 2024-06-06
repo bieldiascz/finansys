@@ -1,0 +1,13 @@
+# Python related
+*.pyc
+__pycache__/
+
+# Environment variables
+.env
+
+# Django related
+db.sqlite3
+media/
+
+# Node related (if you have a frontend or other node components)
+node_modules/
