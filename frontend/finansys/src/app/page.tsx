@@ -1,5 +1,6 @@
-import styles from "./page.module.css";
+import { Children } from "react";
+import MenuVertical from "./components/MenuVertical";
 
 export default function Home() {
-  return <main>Homepage</main>;
+  return <MenuVertical />;
 }

@@ -1,0 +1,49 @@
+/* Estilo principal para o menu */
+.menu {
+    width: 15rem;
+    padding: 20px;
+    display: row;
+    align-items: center;
+    background-color: red;
+  }
+  
+  /* Estilo para o contêiner do logo */
+  .menu_logo_main {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para o logo */
+  .menu_logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .menu_logo img {
+    margin-right: 10px;
+  }
+  
+  /* Estilo para os links do menu */
+  .menu_links {
+    background-color: aqua;
+  }
+  
+  /* Estilo para cada link individual */
+  .menu_links a {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 8px;
+
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-size: 18px;
+  }
+  
+  .menu_links a:hover {
+    transform: translateX(15px);
+  }
+  
