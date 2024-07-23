@@ -9,4 +9,4 @@ class Account(models.Model):
     created_at = models.DateTimeField(auto_now_add=True) # data que a conta tá criada
     
     def __str__(self):
-        return f'{self.name} - {self.balance}'
+        return f'{self.user.username} - {self.name} - {self.balance}'
