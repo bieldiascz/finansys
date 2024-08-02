@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'accounts.apps.AccountsConfig',
     'transactions.apps.TransactionsConfig',
+    'budgets.apps.BudgetsConfig',
     'rest_framework',
 ]
 
